@@ -1,0 +1,10 @@
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/bin/Debug/netcoreapp2.0/TestingGuiCS.deps.json
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/bin/Debug/netcoreapp2.0/TestingGuiCS.runtimeconfig.json
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/bin/Debug/netcoreapp2.0/TestingGuiCS.runtimeconfig.dev.json
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/bin/Debug/netcoreapp2.0/TestingGuiCS.dll
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/bin/Debug/netcoreapp2.0/TestingGuiCS.pdb
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/obj/Debug/netcoreapp2.0/TestingGuiCS.csproj.CoreCompileInputs.cache
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/obj/Debug/netcoreapp2.0/TestingGuiCS.AssemblyInfoInputs.cache
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/obj/Debug/netcoreapp2.0/TestingGuiCS.AssemblyInfo.cs
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/obj/Debug/netcoreapp2.0/TestingGuiCS.dll
+/Users/sirwan/Desktop/dotNetProjs/TestingGuiCS/obj/Debug/netcoreapp2.0/TestingGuiCS.pdb

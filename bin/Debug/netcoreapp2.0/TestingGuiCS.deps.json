@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "a7da61aefa98159395d911a83f23fd1d5fbbb04d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "TestingGuiCS/1.0.0": {
+        "dependencies": {
+          "Terminal.Gui": "0.6.0"
+        },
+        "runtime": {
+          "TestingGuiCS.dll": {}
+        }
+      },
+      "NStack.Core/0.8.0": {
+        "runtime": {
+          "lib/netstandard1.5/NStack.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {},
+      "Terminal.Gui/0.6.0": {
+        "dependencies": {
+          "NStack.Core": "0.8.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Terminal.Gui.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestingGuiCS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NStack.Core/0.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7W/SK4zCgPJNlGhS8THb34It98XkTIqG3yuAqQmynM2OIpRNCs9UA8IXoKqSD4foYg/CQzMCVfZndiqC9o3eag==",
+      "path": "nstack.core/0.8.0",
+      "hashPath": "nstack.core.0.8.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "path": "system.valuetuple/4.4.0",
+      "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
+    },
+    "Terminal.Gui/0.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q7uyP3rOw95oi8vkgFwPzhj4K4oYLOez8NWPx7i0bQ4GgPUccMW7YMmlzdgc277TzzKEi24q0t/zXYpEfyInyw==",
+      "path": "terminal.gui/0.6.0",
+      "hashPath": "terminal.gui.0.6.0.nupkg.sha512"
+    }
+  }
+}
