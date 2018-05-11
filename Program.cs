@@ -74,6 +74,12 @@ namespace TestingGuiCS
                 new Label (3, 7, "-------------Search Result--------------")
             );
 
+            var exp = Movie.IsSuitableForChildren.Compile();
+            if (!exp(new Movie()))
+            {
+                
+            }
+            
             Application.Run ();
         }
     }

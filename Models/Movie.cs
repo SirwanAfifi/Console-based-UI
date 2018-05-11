@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Linq.Expressions;
 using NStack;
 using Terminal.Gui;
 
@@ -9,6 +10,11 @@ namespace TestingGuiCS.Models
 {
     public class Movie
     {
+        public static readonly Expression<Func<Movie, bool>> IsSuitableForChildren = 
+            x => x.MpaaRating <= MpaaRating.PG;
+        public static readonly Expression<Func<Movie, bool>> HasCdVersion =
+            x => x.ReleaseDate <= DateTime.Now.AddMonths(-6);
+        
         public double Id { get; set; }
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
