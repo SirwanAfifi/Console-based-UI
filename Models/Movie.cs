@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using NStack;
 using Terminal.Gui;
+using TestingGuiCS.Core;
 
 namespace TestingGuiCS.Models
 {
